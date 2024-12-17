@@ -14,7 +14,7 @@ const Section4 = () => {
         <div className=" p-6 rounded-lg">
           <img
             className="h-50 rounded w-full object-cover object-center mb-6"
-            src="Frame.jpg"
+            src="/Frame.jpg"
             alt="content"
           />
         
@@ -26,7 +26,7 @@ const Section4 = () => {
           
           <img
             className="h-50 rounded w-full object-cover object-center first-letter -mx-14 mb-6"
-            src="Frame 2.jpg"
+            src="/Frame 2.jpg"
             alt="content"
           />
     </div>
@@ -35,7 +35,7 @@ const Section4 = () => {
         <div className=" p-6 rounded-lg">
           <img
             className="h-50 rounded w-full object-cover object-center -mx-28 mb-6"
-            src="Frame 3.jpg"
+            src="/Frame 3.jpg"
             alt="content"
           />
         
