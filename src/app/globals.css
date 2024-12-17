@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.buttons-container {
+  margin-bottom: 6; /* Adjust this to reduce space */
+  padding-bottom: 8; /* Remove extra padding */
+}
+
+.grid-container {
+  margin-top: 0; /* Reduce space above the grid */
+  padding-top: 0;
+}
