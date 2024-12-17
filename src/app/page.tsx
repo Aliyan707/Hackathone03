@@ -1,11 +1,11 @@
 import React from 'react'
-import Hero from './Components/Hero'
-import Blog from './Components/Blog'
-import Center from './Components/Center'
-import Section2 from './Components/Section2'
-import Section4 from './Components/Section4'
-import Section3 from './Components/Section3'
-import Lowerheader from './Components/Header'
+import Hero from '../components/Hero'
+import Blog from '../components/Blog'
+import Center from '../components/Center'
+import Section2 from '../components/Section2'
+import Section4 from '../components/Section4'
+import Section3 from '../components/Section3'
+import Lowerheader from '../components/Header'
 
 const page = () => {
   return (
